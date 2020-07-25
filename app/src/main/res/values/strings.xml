@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Wallet test Dogs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="list">List</string>
+    <string name="breed_text">Breed</string>
+    <string name="snippet_text">(5 subbreds)</string>
+    <string name="subbreeds">subbreeds</string>
+    <string name="photos">photos</string>
+    <string name="fail_loading_from_server">Fail loading from server, Try else.</string>
+    <string name="fail_connecting_to_server">Fail connecting to server, Try else.</string>
+    <string name="breeds">Breeds</string>
+    <string name="favorites">Favorites</string>
+    <string name="fail_work_with_data">Fail working with data</string>
+    <string name="back">Back</string>
+    <string name="ok">Ok</string>
+    <string name="share_photo">Share photo</string>
+    <string name="share">Share</string>
+    <string name="cancel">Cancel</string>
+</resources>

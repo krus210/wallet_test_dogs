@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/margin_10dp"
+    android:background="@drawable/button_with_edge">
+
+    <TextView
+        android:id="@+id/textViewBreed"
+        style="@style/TextBreed"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonNext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonNext"
+        tools:text="@string/breed_text" />
+
+    <TextView
+        android:id="@+id/textViewSnippet"
+        style="@style/TextSnippet"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewBreed"
+        app:layout_constraintStart_toEndOf="@+id/textViewBreed"
+        app:layout_constraintTop_toTopOf="@+id/textViewBreed"
+        tools:text="@string/snippet_text"
+        android:layout_marginStart="@dimen/margin_10dp"/>
+
+    <ImageView
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_navigate_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

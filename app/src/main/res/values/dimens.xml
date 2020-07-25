@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="primary_text_size">16sp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+    <dimen name="breed_text_size">22sp</dimen>
+    <dimen name="snippet_text_size">14sp</dimen>
+</resources>
