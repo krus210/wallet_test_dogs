@@ -77,6 +77,7 @@ class MainActivity : AppCompatActivity() {
             val fragmentFavorites = BreedFragment.newInstance(true)
             fragmentTransaction.replace(R.id.main_container, fragmentFavorites)
             fragmentTransaction.commit()
+            changeFragment = false
         }
     }
 }
